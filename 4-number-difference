@@ -1,10 +1,10 @@
 public Integer diff(Integer a, Integer b) {
  if(a>b)
  {
- Math.abs (diff=a-b);  
+ Math.abs (a-b);  
  }
   else
   {
-   Math.abs (diff = b-a);
+   Math.abs ( b-a);
   }  //code here
 }
