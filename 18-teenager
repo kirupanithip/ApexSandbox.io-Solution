@@ -1,4 +1,6 @@
 public Boolean isTeenager(Integer age) {
+public void teenager()
+{
 if (age>=13 and age<=19)
 {
     true;
@@ -6,5 +8,6 @@ if (age>=13 and age<=19)
 else
 {
     false;
-}  //code here
+}
+  }  //code here
 }
