@@ -1,9 +1,12 @@
 public String aOrAn(String word) {
-  if(startwith(word,a,e,i,o,u))
-  {
-      return true;
-  }
-  {
-  return false;
-    }  //code here
+string newWord;
+
+if(startwith(word,a,e,i,o,u))
+{
+    return   newWord='an'+ ' ' + word ;
+}
+else
+{
+return newWord='a'+ ' ' + word;
+}  //code here
 }
