@@ -7,7 +7,7 @@ return   newWord='an'+ ' ' + word;
 }
 else
 {
-newWord='a'+ ' ' + word;
+
 return  newWord='a'+ ' ' + word;
 }  //code here
 }
