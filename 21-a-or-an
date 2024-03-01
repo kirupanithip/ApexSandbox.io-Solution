@@ -1,13 +1,12 @@
 public String aOrAn(String word) {
-String newWord;
 
-if(startsWith(word,(a,e,i,o,u)))
+if(word.startsWith('a') || word.startsWith('e')||word.startsWith('i')||word.startsWith('o') || word.startsWith('u'))
 {
-return   newWord='an'+ ' ' + word;
+return   'an'+ ' ' + word;
 }
 else
 {
 
-return  newWord='a'+ ' ' + word;
+return  'a'+ ' ' + word;
 }  
 }
