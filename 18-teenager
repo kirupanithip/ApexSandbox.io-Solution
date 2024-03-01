@@ -1,9 +1,9 @@
 public Boolean isTeenager(Integer age) {
     string result;
 
-if ((age>=13) && (age<=19))
+if ((age>=13) || (age<=19))
 {
-    result ;
+    true ;
 } 
 else
 {
