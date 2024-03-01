@@ -1,5 +1,5 @@
 public String aOrAn(String word) {
-string newWord;
+String newWord;
 
 if(startsWith(word,a,e,i,,u)
 {
