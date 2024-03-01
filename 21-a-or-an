@@ -3,12 +3,11 @@ string newWord;
 
 if(startsWith(word,a)||startsWith(word,e)||startsWith(word,i) ||startsWith(word,O)||startsWith(word,u) )
 {
-newWord='an'+ ' ' + word ;
-return   newWord;
+return   newWord='an'+ ' ' + word;
 }
 else
 {
 newWord='a'+ ' ' + word;
-return   newWord;
+return  newWord='a'+ ' ' + word;
 }  //code here
 }
