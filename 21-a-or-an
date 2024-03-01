@@ -1,7 +1,7 @@
 public String aOrAn(String word) {
 string newWord;
 
-if(startswith(word,a)||startswith(word,e)||startswith(word,i) ||startswith(word,O)||startswith(word,u) )
+if(startsWith(word,a)||startsWith(word,e)||startsWith(word,i) ||startsWith(word,O)||startsWith(word,u) )
 {
 newWord='an'+ ' ' + word ;
 return   newWord;
