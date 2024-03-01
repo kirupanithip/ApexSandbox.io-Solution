@@ -1,13 +1,13 @@
 public Boolean isTeenager(Integer age) {
-    string result;
 
-if ((age>=13) )
+if(age>=13 && age<=19)
 {
-    true ;
-} 
+    return true;
+}
 else
 {
-    false;
+    return false ;
 }
+
  //code here
 }
