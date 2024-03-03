@@ -13,6 +13,6 @@ public Boolean isPassed(Boolean passedExam, Boolean passedAssignments, Boolean p
   }
   else
   {
-      false;
+     return false;
   }
 }
