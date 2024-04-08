@@ -11,5 +11,9 @@ for(Integer num=0;num<nums.size();num++)
     }
 
 }
+else
+{
+    index=-1;
+}
 return index;
 }
