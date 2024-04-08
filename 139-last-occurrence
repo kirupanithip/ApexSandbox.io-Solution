@@ -4,10 +4,10 @@ Integer count=0;
 for(Integer number=0;number<nums.size();number++)
 {
 count+=1;
-index=nums.indexof(num[number]);
+index=nums.indexof(target);
 if(count==2)
 {
-index=nums.indexof(num[number]);
+index=nums.indexof(target);
 }
 }
 return index;
