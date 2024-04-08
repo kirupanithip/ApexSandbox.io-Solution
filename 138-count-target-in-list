@@ -1,0 +1,11 @@
+public Integer findTargetCount(List<Integer> nums, Integer target) {
+ Integer count;
+for (Integer num:numbers)
+{
+ if(nums==target)
+ {
+     count++;
+ }
+}
+return count;
+}
