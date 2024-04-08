@@ -1,14 +1,9 @@
 public static Integer arraySum(List<Integer> numbers) {
 
-if(numbers.size()!=0)
+total=0;
+for(integer num=0;num<numbers.size();num++)
 {
-   numbers+=numbers;
-    return numbers;
-    
+total=total+numbers[num];
 }
-else
-{
-    return null ;
-    
-}
+return total;
 }
