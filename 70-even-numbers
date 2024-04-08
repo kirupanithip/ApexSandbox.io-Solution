@@ -1,11 +1,10 @@
 public List<Integer> evenNumbers(Integer n) {
-List<Integer> even;
+List<Integer> even
 
-Integer num=2;
-for(Integer index=0;index=n;index++)
+for(Integer index=2;index=n*2;index+2)
 {
-    num=num+2;
-even.add(num);
+    
+even.add(index);
 }
 
 even.sort();
