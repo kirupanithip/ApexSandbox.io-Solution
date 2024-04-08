@@ -3,7 +3,7 @@ Integer index=0;
 Integer count=0;
 //index=nums.indexof(target);
 
-for(Integer num=0;number<nums.size();num++)
+for(Integer num=0;num<nums.size();num++)
 {
    if (nums[num]==target)
     {
