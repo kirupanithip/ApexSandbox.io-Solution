@@ -1,5 +1,5 @@
 public static Integer findLast(List<Integer> nums, Integer target) {
-Integer index=-1;
+Integer index=0;
 Integer count=0;
 //index=nums.indexof(target);
 
@@ -13,6 +13,10 @@ if(count==(nums.size()-1))
 {
 index=number;
 }
+}
+else
+{
+    return index=-1;
 }
 }
 return index;
