@@ -9,8 +9,8 @@ for(Integer num=0;num<nums.size();num++)
      if(target==nums[num])
      {
 
-         nCount=count+1;
-         if(nCount>count)
+         nCount=num+1;
+         if(nCount>num)
          {
              index=num;
          }
