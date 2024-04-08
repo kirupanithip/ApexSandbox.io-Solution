@@ -7,7 +7,7 @@ for(Integer num=0;num<nums.size();num++)
 {
    if (nums[num]==target)
     {
-        index=nums.indexof(target);
+        index=num;
         /*
 count+=1;
 index=num;
