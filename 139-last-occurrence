@@ -11,7 +11,7 @@ for(Integer num=0;num<nums.size();num++)
          newCount=count+1;
          if(newCount>count)
          {
-             index=num
+             index=num;
          }
          
      }
