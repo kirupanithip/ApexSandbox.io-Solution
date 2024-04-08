@@ -1,11 +1,12 @@
 public static Integer arraySum(List<Integer> numbers) {
 
-if(numbers.isEmpty())
+if(numbers!= null)
 {
     return 'empty';
 }
 else
 {
     numbers+=numbers;
+    return numbers;
 }
 }
