@@ -8,12 +8,13 @@ for(Integer number=0;number<nums.size();number++)
    if (nums[number]==target)
     {
 //count+=1;
-index=number;
-//if(count==(nums.size()-1))
-//{
+index=nums.indexof(target);
 //index=number;
-//}
+/*if(count==(nums.size()-1))
+{
+index=number;
 }
+}*/
 else
 {
     return index=-1;
