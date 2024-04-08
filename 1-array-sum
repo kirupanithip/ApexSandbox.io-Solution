@@ -1,6 +1,6 @@
 public static Integer arraySum(List<Integer> numbers) {
 
-if(numbers.isEmpty())
+if(numbers.size()==0)
 {
     return null;
 }
