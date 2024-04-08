@@ -5,7 +5,8 @@ Integer count=0;
 
 for(Integer num=0;num<nums.size();num++)
 {
-   if (nums[num]==target)
+     index=nums.indexof(target);
+   /*if (nums[num]==target)
     {
       index=nums.indexof(target);
     }
@@ -13,7 +14,7 @@ for(Integer num=0;num<nums.size();num++)
 {
     index=-1;
 }
-
+*/
 }
 
 return index;
