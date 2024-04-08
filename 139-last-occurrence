@@ -7,13 +7,15 @@ for(Integer num=0;num<nums.size();num++)
 {
    if (nums[num]==target)
     {
+        index=nums.indexof(target);
+        /*
 count+=1;
 index=num;
 if(count==(nums.size()-1))
 {
 index=num;
 }
-}
+}*/
 else
 {
     return = -1;
