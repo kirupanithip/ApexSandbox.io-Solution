@@ -1,15 +1,20 @@
 public static Integer findLast(List<Integer> nums, Integer target) {
 Integer index=0;
 Integer count=0;
+Integer newCount=0;
 //index=nums.indexof(target);
 
 for(Integer num=0;num<nums.size();num++)
 {
-     index=nums.indexof(target);
-   /*if (nums[num]==target)
-    {
-      index=nums.indexof(target);
-    }
+     if(nums[num]==target)
+     {
+         newCount=count+1;
+         if(newCount>count)
+         {
+             index=num
+         }
+         
+     }
     else
 {
     index=-1;
