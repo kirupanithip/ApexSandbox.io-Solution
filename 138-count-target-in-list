@@ -2,7 +2,7 @@ public Integer findTargetCount(List<Integer> nums, Integer target) {
  Integer count=0;
 for (Integer num:nums)
 {
- if(nums==target)
+ if(num==target)
  {
      count++;
  }
