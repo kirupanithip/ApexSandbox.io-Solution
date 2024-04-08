@@ -9,11 +9,12 @@ for(Integer num=0;num<nums.size();num++)
     {
       index=nums.indexof(target);
     }
-
-}
-else
+    else
 {
     index=-1;
 }
+
+}
+
 return index;
 }
