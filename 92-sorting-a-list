@@ -1,11 +1,10 @@
 public List<String> getNamesInAscOrder(List<String> accountNames)
 {
-    List<String> fullNames = new List<String> { 'Blake Howard', 'Adrienne Copeland'};
+    //List<String> fullNames = new List<String> { 'Blake Howard', 'Adrienne Copeland'};
     //this.fullNames=accountNames;
     
-fullNames.sort()
-List<string> result = getNamesInAscOrder(fullNames);
-getNamesInAscOrder.sort()
+accountNames.sort()
+List<string> result = getNamesInAscOrder(accountNames);
 
 //code here
 }
