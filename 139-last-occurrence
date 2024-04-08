@@ -3,16 +3,13 @@ Integer index=0;
 Integer count=0;
 //index=nums.indexof(target);
 
-for(Integer num=0;num<nums.size();num++)
-{
+//for(Integer num=0;num<nums.size();num++)
+//{
    if (nums[num]==target)
     {
-        index=num;
+      index=nums.indexof(target);
     }
-else
-{
-    return = -1;
-}
-}
+
+//}
 return index;
 }
