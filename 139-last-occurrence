@@ -2,7 +2,7 @@ public static Integer findLast(List<Integer> nums, Integer target) {
 Integer index=0;
 //for(Integer count=0;nums<nums.size();count++)
 //{
-index=nums.indexof(count);
+index=nums.indexof(target);
 //}
 return index;
 }
