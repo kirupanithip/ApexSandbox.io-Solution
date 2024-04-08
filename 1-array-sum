@@ -2,11 +2,12 @@ public static Integer arraySum(List<Integer> numbers) {
 
 if(numbers!= null)
 {
-    return 'empty';
+   numbers+=numbers;
+    return numbers;
+    
 }
 else
 {
-    numbers+=numbers;
-    return numbers;
+     return null;
 }
 }
