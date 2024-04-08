@@ -1,13 +1,14 @@
 public static Integer arraySum(List<Integer> numbers) {
 
-if(numbers.size()==0)
+if(numbers.size()!=0)
 {
-    return null;
+   numbers+=numbers;
+    return numbers;
+    
 }
 else
 {
-    numbers+=numbers;
-    return numbers;
+    return null ;
     
 }
 }
