@@ -1,8 +1,8 @@
 public Integer findTargetCount(List<Integer> nums, Integer target) {
  Integer count=0;
-for (Integer new:nums)
+for (Integer listNum:nums)
 {
- if(new==target)
+ if(listNum==target)
  {
      count++;
  }
