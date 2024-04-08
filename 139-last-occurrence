@@ -1,8 +1,14 @@
 public static Integer findLast(List<Integer> nums, Integer target) {
 Integer index=0;
-//for(Integer count=0;nums<nums.size();count++)
-//{
-index=nums.indexof(target);
-//}
+Integer count=0;
+for(Integer number=0;number<nums.size();number++)
+{
+count+=1;
+index=nums.indexof(num[number]);
+if(count==2)
+{
+index=nums.indexof(num[number]);
+}
+}
 return index;
 }
