@@ -3,21 +3,20 @@ Integer index=0;
 Integer count=0;
 //index=nums.indexof(target);
 
-for(Integer number=0;number<nums.size();number++)
+for(Integer num=0;number<nums.size();num++)
 {
-   if (nums[number]==target)
+   if (nums[num]==target)
     {
-//count+=1;
-index=nums.indexof(target);
-//index=number;
-/*if(count==(nums.size()-1))
+count+=1;
+index=num;
+if(count==(nums.size()-1))
 {
-index=number;
+index=num;
 }
-}*/
+}
 else
 {
-    return index=-1;
+    return = -1;
 }
 }
 return index;
