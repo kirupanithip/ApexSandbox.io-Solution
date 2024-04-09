@@ -5,7 +5,7 @@ List<Integer> evenLst=new List<Integer>();
     {  
         if((math.mod(index,2))==0) 
         {
-            even.add(index);
+            evenLst.add(index);
         }
     }
     System.debug(evenLst);
