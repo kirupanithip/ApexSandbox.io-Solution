@@ -1,9 +1,12 @@
 public List<Integer> evenNumbers(Integer n) {
 List<Integer> even=new List<Integer>();
 
-for(Integer index=2;index<=n*2;index+2)
-{   
+for(Integer index=;index<=n;index++)
+{  
+    if(index%2==0) 
+    {
 even.add(index);
+    }
 }
 return even;
 }
