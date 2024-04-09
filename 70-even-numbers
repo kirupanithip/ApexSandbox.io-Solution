@@ -1,7 +1,7 @@
 public List<Integer> evenNumbers(Integer n) {
    List<Integer> evenLst=new List<Integer>();
 
-    for(Integer index=1;index<=10;index++)
+    for(Integer index=1;index<=n;index++)
     {  
         if((math.mod(index,2))==0) 
         {
