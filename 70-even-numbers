@@ -1,14 +1,13 @@
 public List<Integer> evenNumbers(Integer n) {
-    List<Integer> evenLst=new List<Integer>();
+   List<Integer> evenLst=new List<Integer>();
 
-    for(Integer index=1;index<=n;index++)
+    for(Integer index=1;index<=10;index++)
     {  
         if((math.mod(index,2))==0) 
         {
             evenLst.add(index);
         }
     }
-    System.debug(evenLst);
     return evenLst;
 }
     //code here
