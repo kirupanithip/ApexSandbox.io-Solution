@@ -4,10 +4,10 @@ public List<Integer> evenNumbers(Integer n) {
 
     for(Integer index = 2; index <= n*2; index+2) 
     {  
-        if(Math.mod(index, 2) == 0)
-        {
+        //if(Math.mod(index, 2) == 0)
+        //{
             evenLst.add(index);
-        }
+       //}
     }
     return evenLst;
 }
