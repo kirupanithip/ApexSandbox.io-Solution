@@ -3,7 +3,7 @@ List<Integer> even=new List<Integer>();
 
 for(Integer index=;index<=n;index++)
 {  
-    if(math.mod(index,2)==0) 
+    if((math.mod(index,2))==0) 
     {
 even.add(index);
     }
