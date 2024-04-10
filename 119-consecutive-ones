@@ -1,0 +1,14 @@
+public Integer maxConsecutiveOnes(Integer[] numbers) {
+Integer count;
+Integer newCount;
+for (Integer index:numbers)
+count=index;
+if(index==1)
+{
+    newCount=count+1;
+    if(newCount>count)
+    {
+        return newCount;
+    }
+}
+}
