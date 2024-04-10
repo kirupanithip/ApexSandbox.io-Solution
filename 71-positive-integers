@@ -2,7 +2,7 @@ public List<Integer> positiveIntegers(List<Integer> numbers) {
     List<Integer> newList=new List<Integer>();
     for(Integer positiveNumbers:numbers)
     {
-        if(positiveNumbers>=0)
+        if(positiveNumbers>0)
         {
             newList.add(positiveNumbers);
         }
