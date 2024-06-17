@@ -1,0 +1,3 @@
+public Boolean isEndWithZero(Integer num){
+     //code here
+}
