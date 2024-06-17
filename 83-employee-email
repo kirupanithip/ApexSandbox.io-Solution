@@ -1,0 +1,24 @@
+public String employeeEmail(Map<String, String> employeeIdToEmail, String employeeId) {
+
+/*employeeId.put('6752');
+employeeId.put('19228');
+employeeId.put('4823');*/
+employeeIdToEmail.put('6752','cooper@corporation.com');
+employeeIdToEmail.put('19228','umair@universalcontainers.com');
+employeeIdToEmail.put('4823','alicia@acmeenterprises.com');
+
+for(String empEmail:employeeIdToEmail.Values)
+{
+if(employeeId==(employeeIdToEmail.Keyset))
+{
+    return employeeIdToEmail.get(empEmail);
+}
+else
+{
+    return 'info@apexsandbox.io';
+}
+}
+
+
+    //code here
+}
