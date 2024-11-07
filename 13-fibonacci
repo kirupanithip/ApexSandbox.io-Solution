@@ -1,0 +1,23 @@
+public Integer fibonacci(Integer n) {
+    //code here
+
+     // Check if n is 1 or 2, since the first two numbers in the Fibonacci sequence are 1
+        if (n == 1 || n == 2) {
+            return 1;
+        }
+        
+        // Variables to store previous two Fibonacci numbers
+        Integer a = 1;
+        Integer b = 1;
+        Integer result = 0;
+        
+        // Calculate the nth Fibonacci number iteratively
+        for (Integer i = 3; i <= n; i++) {
+            result = a + b;
+            a = b;
+            b = result;
+        }
+        
+        return result;
+    }
+}
