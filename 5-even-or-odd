@@ -1,9 +1,7 @@
 public String evenOrOdd(Integer num) {
     //code here
 
-        return 'ODD';
-    }
-    
+     
     if (Math.mod(num, 2) == 0) 
     {
             return 'even';
